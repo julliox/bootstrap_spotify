@@ -1,0 +1,78 @@
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+} 
+
+nav.navbar-tranparente {
+    padding: 15px 0px;
+    background: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: inherit;
+    letter-spacing: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #1ed760;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 32px 17px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 28px 17px;
+}
+nav.navbar.navbar-expand-md.navbar-light.navbar-tranparente {
+    padding: 0px 0px;
+}
+
+a.nav-link.footer-item.entrar {
+    padding: 28px 0px 28px 17px;
+}
+
+div.container.align-self-center {
+    padding: 72px 0px 40px;
+    width: 100%;
+}
+#conteudos1{
+    background-color: rgb(29, 117, 222)
+}
+
+div.container.align-self-center h1 {
+    padding: 0px;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+.titulo-conteudos1 {
+    line-height: 1.2;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 600;
+    max-width: 100%;
+    width: auto;
+    display: inline-block;
+    font-size: calc(24px + 4 * ((100vw - 320px) / 160));
+}
